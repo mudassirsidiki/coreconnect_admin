@@ -3,123 +3,141 @@
 import { Card } from '@/components/ui/card'
 import { LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts'
 
-// User Efficiency Data - Average records per user
-const userEfficiencyData = [
-  { name: 'Emma Davis', efficiency: 95, totalRecords: 152, avgPerDay: 12.7 },
-  { name: 'David Lee', efficiency: 88, totalRecords: 131, avgPerDay: 10.9 },
-  { name: 'Mike Johnson', efficiency: 85, totalRecords: 128, avgPerDay: 10.7 },
-  { name: 'Chris Taylor', efficiency: 78, totalRecords: 97, avgPerDay: 8.1 },
-  { name: 'Lisa Anderson', efficiency: 72, totalRecords: 82, avgPerDay: 6.8 },
-  { name: 'John Doe', efficiency: 70, totalRecords: 75, avgPerDay: 6.3 },
-  { name: 'Tom Brown', efficiency: 68, totalRecords: 71, avgPerDay: 5.9 },
+// Daily Activity Trend - Companies and Contacts added over time
+const dailyActivityData = [
+  { date: '15 Nov', companies: 12, contacts: 45 },
+  { date: '16 Nov', companies: 8, contacts: 32 },
+  { date: '17 Nov', companies: 15, contacts: 58 },
+  { date: '18 Nov', companies: 6, contacts: 22 },
+  { date: '19 Nov', companies: 10, contacts: 38 },
+  { date: '20 Nov', companies: 18, contacts: 65 },
+  { date: '21 Nov', companies: 11, contacts: 42 },
+  { date: '22 Nov', companies: 13, contacts: 48 },
+  { date: '23 Nov', companies: 9, contacts: 38 },
+  { date: '24 Nov', companies: 16, contacts: 60 },
+  { date: '25 Nov', companies: 9, contacts: 35 },
 ]
 
-// User Data Type Preferences - What type of data each user adds most
-const userDataTypeData = [
-  { 
-    name: 'Emma Davis',
-    companies: 18,
-    contacts: 65,
-    technologies: 42,
-    projects: 15,
-  },
-  { 
-    name: 'David Lee',
-    companies: 16,
-    contacts: 60,
-    technologies: 34,
-    projects: 12,
-  },
-  { 
-    name: 'Mike Johnson',
-    companies: 15,
-    contacts: 58,
-    technologies: 31,
-    projects: 12,
-  },
-  { 
-    name: 'Chris Taylor',
-    companies: 13,
-    contacts: 48,
-    technologies: 26,
-    projects: 9,
-  },
-  { 
-    name: 'Lisa Anderson',
-    companies: 11,
-    contacts: 42,
-    technologies: 22,
-    projects: 7,
-  },
+// Industry Distribution
+const industryData = [
+  { name: 'Technology', value: 3, fill: '#8b5cf6' },
+  { name: 'Healthcare', value: 1, fill: '#3b82f6' },
+  { name: 'Finance', value: 1, fill: '#06b6d4' },
+  { name: 'Retail', value: 1, fill: '#ec4899' },
+  { name: 'Manufacturing', value: 1, fill: '#f59e0b' },
+  { name: 'Energy', value: 1, fill: '#10b981' },
+  { name: 'Education', value: 1, fill: '#ef4444' },
+  { name: 'Real Estate', value: 1, fill: '#6366f1' },
+  { name: 'Telecommunications', value: 1, fill: '#14b8a6' },
+  { name: 'Transportation', value: 1, fill: '#f97316' },
 ]
 
-// Top Users by Data Type Added
-const topUsersByDataType = [
-  { user: 'Emma Davis', type: 'Contacts', count: 65, percentage: 43 },
-  { user: 'David Lee', type: 'Contacts', count: 60, percentage: 46 },
-  { user: 'Emma Davis', type: 'Technologies', count: 42, percentage: 28 },
-  { user: 'Mike Johnson', type: 'Contacts', count: 58, percentage: 45 },
-  { user: 'David Lee', type: 'Technologies', count: 34, percentage: 26 },
+// Regional Performance Comparison
+const regionalData = [
+  { region: 'USA', companies: 71, contacts: 280, total: 351 },
+  { region: 'Canada', companies: 40, contacts: 185, total: 225 },
 ]
 
-// User Productivity Score (based on total records and consistency)
-const userProductivityData = [
-  { name: 'Emma Davis', score: 95, records: 152, consistency: 92 },
-  { name: 'David Lee', score: 88, records: 131, consistency: 85 },
-  { name: 'Mike Johnson', score: 85, records: 128, consistency: 82 },
-  { name: 'Chris Taylor', score: 78, records: 97, consistency: 75 },
-  { name: 'Lisa Anderson', score: 72, records: 82, consistency: 70 },
+// Top PT Team Members by Total Additions
+const topPerformersData = [
+  { name: 'Zainab Raza', companies: 18, contacts: 65, total: 83 },
+  { name: 'Hira Abbas', companies: 16, contacts: 60, total: 76 },
+  { name: 'Hassan Malik', companies: 15, contacts: 58, total: 73 },
+  { name: 'Sana Mirza', companies: 13, contacts: 48, total: 61 },
+  { name: 'Usman Iqbal', companies: 11, contacts: 42, total: 53 },
+  { name: 'Ahmed Ali', companies: 12, contacts: 45, total: 57 },
+  { name: 'Bilal Ahmed', companies: 10, contacts: 38, total: 48 },
 ]
 
-// Data Type Distribution by Top Users
-const dataTypeByUsers = [
-  { type: 'Contacts', count: 273, users: 5, avgPerUser: 54.6 },
-  { type: 'Technologies', count: 155, users: 5, avgPerUser: 31.0 },
-  { type: 'Companies', count: 73, users: 5, avgPerUser: 14.6 },
-  { type: 'Projects', count: 55, users: 5, avgPerUser: 11.0 },
-]
+const COLORS = ['#8b5cf6', '#3b82f6', '#06b6d4', '#ec4899', '#f59e0b', '#10b981', '#ef4444', '#6366f1', '#14b8a6', '#f97316']
 
 export function ActivityCharts() {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8 w-full">
-      {/* User Efficiency Ranking */}
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-8 w-full">
+      {/* Daily Activity Trend */}
       <Card className="border-border p-6 w-full">
-        <h3 className="text-lg font-semibold text-foreground mb-4">User Efficiency Ranking</h3>
-        <p className="text-xs text-muted-foreground mb-4">Efficiency score based on total records and daily average</p>
+        <h3 className="text-lg font-semibold text-foreground mb-4">Daily Activity Trend</h3>
+        <p className="text-xs text-muted-foreground mb-4">
+          Companies and Contacts added over the past 11 days
+        </p>
         <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={userEfficiencyData} layout="vertical">
+          <LineChart data={dailyActivityData}>
             <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
-            <XAxis type="number" domain={[0, 100]} stroke="var(--color-muted-foreground)" />
-            <YAxis dataKey="name" type="category" stroke="var(--color-muted-foreground)" width={100} />
+            <XAxis 
+              dataKey="date" 
+              stroke="var(--color-muted-foreground)" 
+              tick={{ fontSize: 12 }}
+            />
+            <YAxis stroke="var(--color-muted-foreground)" />
             <Tooltip
               contentStyle={{
                 backgroundColor: 'var(--color-card)',
                 border: '1px solid var(--color-border)',
               }}
-              formatter={(value: number, name: string) => {
-                if (name === 'efficiency') return [`${value}%`, 'Efficiency Score']
-                if (name === 'totalRecords') return [value, 'Total Records']
-                if (name === 'avgPerDay') return [value, 'Avg/Day']
-                return [value, name]
-              }}
             />
             <Legend />
-            <Bar dataKey="efficiency" fill="#8b5cf6" radius={[0, 4, 4, 0]} name="Efficiency %" />
-          </BarChart>
+            <Line 
+              type="monotone" 
+              dataKey="companies" 
+              stroke="#8b5cf6" 
+              strokeWidth={2} 
+              dot={{ r: 4 }} 
+              name="Companies Added"
+            />
+            <Line 
+              type="monotone" 
+              dataKey="contacts" 
+              stroke="#3b82f6" 
+              strokeWidth={2} 
+              dot={{ r: 4 }} 
+              name="Contacts Added"
+            />
+          </LineChart>
         </ResponsiveContainer>
-        <div className="mt-4 text-xs text-muted-foreground">
-          <span>Efficiency = (Total Records × Consistency) / 100</span>
-        </div>
       </Card>
 
-      {/* User Data Type Preferences */}
+      {/* Industry Distribution */}
       <Card className="border-border p-6 w-full">
-        <h3 className="text-lg font-semibold text-foreground mb-4">Top Users - Data Type Breakdown</h3>
-        <p className="text-xs text-muted-foreground mb-4">What type of data each top user adds most</p>
+        <h3 className="text-lg font-semibold text-foreground mb-4">Industry Distribution</h3>
+        <p className="text-xs text-muted-foreground mb-4">
+          Breakdown of companies by industry sector
+        </p>
         <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={userDataTypeData}>
+          <PieChart>
+            <Pie
+              data={industryData}
+              cx="50%"
+              cy="50%"
+              labelLine={false}
+              label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+              outerRadius={100}
+              fill="#8884d8"
+              dataKey="value"
+            >
+              {industryData.map((entry, index) => (
+                <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+              ))}
+            </Pie>
+            <Tooltip
+              contentStyle={{
+                backgroundColor: 'var(--color-card)',
+                border: '1px solid var(--color-border)',
+              }}
+            />
+          </PieChart>
+        </ResponsiveContainer>
+      </Card>
+
+      {/* Regional Performance Comparison */}
+      <Card className="border-border p-6 w-full">
+        <h3 className="text-lg font-semibold text-foreground mb-4">Regional Performance</h3>
+        <p className="text-xs text-muted-foreground mb-4">
+          Comparison of USA vs Canada performance
+        </p>
+        <ResponsiveContainer width="100%" height={300}>
+          <BarChart data={regionalData}>
             <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
-            <XAxis dataKey="name" stroke="var(--color-muted-foreground)" angle={-45} textAnchor="end" height={80} />
+            <XAxis dataKey="region" stroke="var(--color-muted-foreground)" />
             <YAxis stroke="var(--color-muted-foreground)" />
             <Tooltip
               contentStyle={{
@@ -130,82 +148,55 @@ export function ActivityCharts() {
             <Legend />
             <Bar dataKey="companies" fill="#8b5cf6" radius={[8, 8, 0, 0]} name="Companies" />
             <Bar dataKey="contacts" fill="#3b82f6" radius={[8, 8, 0, 0]} name="Contacts" />
-            <Bar dataKey="technologies" fill="#06b6d4" radius={[8, 8, 0, 0]} name="Technologies" />
-            <Bar dataKey="projects" fill="#ec4899" radius={[8, 8, 0, 0]} name="Projects" />
+            <Bar dataKey="total" fill="#06b6d4" radius={[8, 8, 0, 0]} name="Total" />
           </BarChart>
         </ResponsiveContainer>
+        <div className="mt-4 grid grid-cols-2 gap-4 text-xs">
+          {regionalData.map((item) => (
+            <div key={item.region} className="flex flex-col">
+              <span className="text-muted-foreground">{item.region}:</span>
+              <span className="font-semibold text-foreground">
+                {item.total} total ({item.companies} companies, {item.contacts} contacts)
+              </span>
+            </div>
+          ))}
+        </div>
       </Card>
 
-      {/* User Productivity Score */}
+      {/* Top Performers */}
       <Card className="border-border p-6 w-full">
-        <h3 className="text-lg font-semibold text-foreground mb-4">User Productivity Score</h3>
-        <p className="text-xs text-muted-foreground mb-4">Combined score: Records + Consistency</p>
+        <h3 className="text-lg font-semibold text-foreground mb-4">Top PT Team Members</h3>
+        <p className="text-xs text-muted-foreground mb-4">
+          Highest performing team members by total additions
+        </p>
         <ResponsiveContainer width="100%" height={300}>
-          <LineChart data={userProductivityData}>
-            <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
-            <XAxis dataKey="name" stroke="var(--color-muted-foreground)" angle={-45} textAnchor="end" height={80} />
-            <YAxis domain={[0, 100]} stroke="var(--color-muted-foreground)" />
-            <Tooltip
-              contentStyle={{
-                backgroundColor: 'var(--color-card)',
-                border: '1px solid var(--color-border)',
-              }}
-            />
-            <Legend />
-            <Line 
-              type="monotone" 
-              dataKey="score" 
-              stroke="#8b5cf6" 
-              strokeWidth={3} 
-              dot={{ r: 5 }} 
-              name="Productivity Score"
-            />
-            <Line 
-              type="monotone" 
-              dataKey="consistency" 
-              stroke="#06b6d4" 
-              strokeWidth={2} 
-              dot={{ r: 4 }} 
-              name="Consistency %"
-            />
-          </LineChart>
-        </ResponsiveContainer>
-      </Card>
-
-      {/* Data Type Distribution by Users */}
-      <Card className="border-border p-6 w-full">
-        <h3 className="text-lg font-semibold text-foreground mb-4">Data Type Distribution</h3>
-        <p className="text-xs text-muted-foreground mb-4">Total data added by type across all users</p>
-        <ResponsiveContainer width="100%" height={300}>
-          <BarChart data={dataTypeByUsers} layout="vertical">
+          <BarChart data={topPerformersData} layout="vertical">
             <CartesianGrid strokeDasharray="3 3" stroke="var(--color-border)" />
             <XAxis type="number" stroke="var(--color-muted-foreground)" />
-            <YAxis dataKey="type" type="category" stroke="var(--color-muted-foreground)" />
+            <YAxis 
+              dataKey="name" 
+              type="category" 
+              stroke="var(--color-muted-foreground)" 
+              width={100}
+              tick={{ fontSize: 11 }}
+            />
             <Tooltip
               contentStyle={{
                 backgroundColor: 'var(--color-card)',
                 border: '1px solid var(--color-border)',
               }}
               formatter={(value: number, name: string) => {
-                if (name === 'count') return [value, 'Total Records']
-                if (name === 'users') return [value, 'Active Users']
-                if (name === 'avgPerUser') return [value.toFixed(1), 'Avg/User']
+                if (name === 'total') return [value, 'Total Additions']
+                if (name === 'companies') return [value, 'Companies']
+                if (name === 'contacts') return [value, 'Contacts']
                 return [value, name]
               }}
             />
             <Legend />
-            <Bar dataKey="count" fill="#3b82f6" radius={[0, 4, 4, 0]} name="Total Records" />
-            <Bar dataKey="avgPerUser" fill="#06b6d4" radius={[0, 4, 4, 0]} name="Avg per User" />
+            <Bar dataKey="companies" fill="#8b5cf6" radius={[0, 4, 4, 0]} name="Companies" />
+            <Bar dataKey="contacts" fill="#3b82f6" radius={[0, 4, 4, 0]} name="Contacts" />
           </BarChart>
         </ResponsiveContainer>
-        <div className="mt-4 grid grid-cols-2 gap-2 text-xs">
-          {dataTypeByUsers.map((item) => (
-            <div key={item.type} className="flex items-center justify-between">
-              <span className="text-muted-foreground">{item.type}:</span>
-              <span className="font-semibold">{item.count} records</span>
-            </div>
-          ))}
-        </div>
       </Card>
     </div>
   )

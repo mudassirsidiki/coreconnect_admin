@@ -1,102 +1,1617 @@
-[00:00:03.482] Server  LOG      ✓ Ready in 2.5s
-[00:00:11.383] Server  LOG      ○ Compiling / ...
-[00:00:27.167] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:30.735] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:30.736] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:30.736] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764609645731}
-[00:05:48.985] Server  LOG      ✓ Compiled in 404ms
-[00:06:17.857] Server  LOG      ✓ Compiled in 224ms
-[00:06:20.402] Server  LOG      ✓ Compiled in 429ms
-[00:06:26.165] Server  LOG      ✓ Compiled in 697ms
-[00:06:32.351] Server  LOG      ✓ Compiled in 213ms
-[00:09:15.521] Server  LOG      ✓ Compiled in 299ms
-[00:09:17.961] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
-[00:10:06.309] Server  LOG      ✓ Compiled in 426ms
-[00:10:06.359] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:10:07.790] Server  ERROR   C:\Users\rocky\Desktop\WEB DEV BIG PROJECTS\CORECONNECT ADMIN DASHBOARD\coreconnect_admin\.next\dev\server\chunks\ssr\3d860_WEB DEV BIG PROJECTS_CORECONNECT ADMIN DASHBOARD_coreconnect_admin_8a447e31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:10:07.804] Server  ERROR    ⨯ ReferenceError: Button is not defined
-[00:10:07.920] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
-[00:10:09.518] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:10.731] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
-[00:10:19.828] Server  LOG      ✓ Compiled in 611ms
-[00:10:19.883] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:10:20.926] Server  ERROR   C:\Users\rocky\Desktop\WEB DEV BIG PROJECTS\CORECONNECT ADMIN DASHBOARD\coreconnect_admin\.next\dev\server\chunks\ssr\3d860_WEB DEV BIG PROJECTS_CORECONNECT ADMIN DASHBOARD_coreconnect_admin_8a447e31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:10:20.932] Server  ERROR    ⨯ ReferenceError: Button is not defined
-[00:10:23.046] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:24.739] Browser ERROR   uncaughtError: ReferenceError: Button is not defined
-[00:10:26.028] Server  LOG      ✓ Compiled in 409ms
-[00:10:26.039] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:10:27.261] Server  ERROR   C:\Users\rocky\Desktop\WEB DEV BIG PROJECTS\CORECONNECT ADMIN DASHBOARD\coreconnect_admin\.next\dev\server\chunks\ssr\3d860_WEB DEV BIG PROJECTS_CORECONNECT ADMIN DASHBOARD_coreconnect_admin_8a447e31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:10:27.273] Server  ERROR    ⨯ ReferenceError: getDataForMethod is not defined
-[00:10:28.472] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:30.074] Server  LOG      ✓ Compiled in 1025ms
-[00:10:32.730] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/%5Broot-of-the-server%5D__84adc2d6._.css
-[00:10:32.730] Browser ERROR   uncaughtError: ReferenceError: getDataForMethod is not defined
-[00:10:40.960] Server  LOG      ✓ Compiled in 341ms
-[00:10:41.128] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:10:41.130] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:10:44.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:10:52.225] Browser WARN    ImmutableStateInvariantMiddleware took 75ms, which is more than the warning threshold of 32ms. 
+[00:00:05.252] Server  LOG      ✓ Ready in 4.1s
+[00:00:08.515] Server  LOG      ○ Compiling / ...
+[00:00:25.579] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:28.967] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.996] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:34.448] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="/Desktop/W...">
+                <SegmentTrieNode>
+                <ClientPageRoot Component={function Dashboard} serverProvidedParams={{...}}>
+                  <Dashboard params={Promise} searchParams={Promise}>
+                    <div className="flex h-scr...">
+                      <Sidebar>
+                      <div className="flex-1 fle...">
+                        <Header>
+                        <div className="flex-1 ove...">
+                          <main className="p-8 max-w-...">
+                            <StatCards>
+                            <div className="grid grid-...">
+                              ...
+                                <div data-slot="table-cont..." className="relative w...">
+                                  <table data-slot="table" className="w-full cap...">
+                                    ...
+                                      <ArrowUpDown className="w-4 h-4 op...">
+                                        <svg ref={null} xmlns="http://www..." width={24} height={24} viewBox="0 0 24 24" ...>
+                                          <path>
+                                          <path>
+                                          <path
+                                            d="m3 8 4-4 4 4"
+-                                           data-cursor-element-id="cursor-el-183"
+                                          >
+                                          <path
+                                            d="M7 4v16"
+-                                           data-cursor-element-id="cursor-el-184"
+                                          >
+                                    <TableBody>
+                                      <tbody
+                                        data-slot="table-body"
+                                        className={"[&_tr:last-child]:border-0"}
+-                                       data-cursor-element-id="cursor-el-185"
+                                      >
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-186"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-187"
+                                              >
++                                               Ahmed Ali
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-188"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-189"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-190"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-191"
+                                                  >
++                                                   08:15 AM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-192"
+                                              >
++                                               12
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-193"
+                                              >
++                                               45
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-194"
+                                              >
++                                               23
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-195"
+                                              >
++                                               8
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-196"
+                                              >
++                                               88
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-197"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-198"
+                                              >
++                                               Fatima Khan
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-199"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-200"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-201"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-202"
+                                                  >
++                                                   09:30 AM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-203"
+                                              >
++                                               8
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-204"
+                                              >
++                                               32
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-205"
+                                              >
++                                               15
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-206"
+                                              >
++                                               5
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-207"
+                                              >
++                                               60
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-208"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-209"
+                                              >
++                                               Hassan Malik
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-210"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-211"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-212"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-213"
+                                                  >
++                                                   10:45 AM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-214"
+                                              >
++                                               15
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-215"
+                                              >
++                                               58
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-216"
+                                              >
++                                               31
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-217"
+                                              >
++                                               12
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-218"
+                                              >
++                                               116
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-219"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-220"
+                                              >
++                                               Ayesha Sheikh
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-221"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-222"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-223"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-224"
+                                                  >
++                                                   11:20 AM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-225"
+                                              >
++                                               6
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-226"
+                                              >
++                                               22
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-227"
+                                              >
++                                               10
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-228"
+                                              >
++                                               3
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-229"
+                                              >
++                                               41
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-230"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-231"
+                                              >
++                                               Bilal Ahmed
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-232"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-233"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-234"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-235"
+                                                  >
++                                                   12:10 PM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-236"
+                                              >
++                                               10
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-237"
+                                              >
++                                               38
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-238"
+                                              >
++                                               19
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-239"
+                                              >
++                                               7
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-240"
+                                              >
++                                               74
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-241"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-242"
+                                              >
++                                               Zainab Raza
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-243"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-244"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-245"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-246"
+                                                  >
++                                                   01:25 PM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-247"
+                                              >
++                                               18
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-248"
+                                              >
++                                               65
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-249"
+                                              >
++                                               42
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-250"
+                                              >
++                                               15
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-251"
+                                              >
++                                               140
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-252"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-253"
+                                              >
++                                               Usman Iqbal
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-254"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-255"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-256"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-257"
+                                                  >
++                                                   02:40 PM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-258"
+                                              >
++                                               11
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-259"
+                                              >
++                                               42
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-260"
+                                              >
++                                               22
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-261"
+                                              >
++                                               7
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-262"
+                                              >
++                                               82
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-263"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-264"
+                                              >
++                                               Sana Mirza
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-265"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-266"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-267"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-268"
+                                                  >
++                                                   03:55 PM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-269"
+                                              >
++                                               13
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-270"
+                                              >
++                                               48
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-271"
+                                              >
++                                               26
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-272"
+                                              >
++                                               9
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-273"
+                                              >
++                                               96
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-274"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-275"
+                                              >
++                                               Omar Butt
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-276"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-277"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-278"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-279"
+                                                  >
++                                                   04:30 PM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-280"
+                                              >
++                                               9
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-281"
+                                              >
++                                               38
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-282"
+                                              >
++                                               20
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-283"
+                                              >
++                                               5
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-284"
+                                              >
++                                               72
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-285"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-286"
+                                              >
++                                               Hira Abbas
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-287"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-288"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-289"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-290"
+                                                  >
++                                                   05:15 PM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-291"
+                                              >
++                                               16
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-292"
+                                              >
++                                               60
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-293"
+                                              >
++                                               34
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-294"
+                                              >
++                                               12
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-295"
+                                              >
++                                               122
+                                        <TableRow className="hover:bg-m...">
+                                          <tr
+                                            data-slot="table-row"
+                                            className="data-[state=selected]:bg-muted border-b transition-colors hover..."
+-                                           data-cursor-element-id="cursor-el-296"
+                                          >
+                                            <TableCell className="font-mediu...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-297"
+                                              >
++                                               Tariq Hussain
+                                            <TableCell className="text-foreg...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-298"
+                                              >
+                                                <div
+                                                  className="flex flex-col"
+-                                                 data-cursor-element-id="cursor-el-299"
+                                                >
+                                                  <span
+                                                    className="text-sm font-medium"
+-                                                   data-cursor-element-id="cursor-el-300"
+                                                  >
++                                                   20 Nov 2025
+                                                  <span
+                                                    className="text-xs text-muted-foreground"
+-                                                   data-cursor-element-id="cursor-el-301"
+                                                  >
++                                                   06:00 PM
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-302"
+                                              >
++                                               9
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-303"
+                                              >
++                                               35
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-304"
+                                              >
++                                               18
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-305"
+                                              >
++                                               5
+                                            <TableCell className="text-right...">
+                                              <td
+                                                data-slot="table-cell"
+                                                className={"p-2 align-middle whitespace-nowrap [&:has([role=checkbox]..."}
+-                                               data-cursor-element-id="cursor-el-306"
+                                              >
++                                               67
+                              <div
+                                className="flex w-full"
+-                               data-cursor-element-id="cursor-el-307"
+                              >
+                                <RecentActivity>
+                                  <Card className="border-bor...">
+                                    <div
+                                      data-slot="card"
+                                      className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border py..."
+-                                     data-cursor-element-id="cursor-el-308"
+                                    >
+                                      <div
+                                        className="p-6"
+-                                       data-cursor-element-id="cursor-el-309"
+                                      >
+                                        <h3
+                                          className="text-lg font-semibold text-foreground mb-4 flex items-center gap-2"
+-                                         data-cursor-element-id="cursor-el-310"
+                                        >
+                                          <Calendar className="w-5 h-5">
+                                            <svg
+                                              ref={null}
+                                              xmlns="http://www.w3.org/2000/svg"
+                                              width={24}
+                                              height={24}
+                                              viewBox="0 0 24 24"
+                                              fill="none"
+                                              stroke="currentColor"
+                                              strokeWidth={2}
+                                              strokeLinecap="round"
+                                              strokeLinejoin="round"
+                                              className="lucide lucide-calendar w-5 h-5"
+-                                             data-cursor-element-id="cursor-el-311"
+                                            >
+                                              <path
+                                                d="M8 2v4"
+-                                               data-cursor-element-id="cursor-el-312"
+                                              >
+                                              <path
+                                                d="M16 2v4"
+-                                               data-cursor-element-id="cursor-el-313"
+                                              >
+                                              <rect
+                                                width="18"
+                                                height="18"
+                                                x="3"
+                                                y="4"
+                                                rx="2"
+-                                               data-cursor-element-id="cursor-el-314"
+                                              >
+                                              <path
+                                                d="M3 10h18"
+-                                               data-cursor-element-id="cursor-el-315"
+                                              >
+                                          ...
+                                        <div
+                                          className="space-y-4"
+-                                         data-cursor-element-id="cursor-el-316"
+                                        >
+                                          <div
+                                            className="p-3 hover:bg-muted/50 rounded-lg transition-colors border borde..."
+-                                           data-cursor-element-id="cursor-el-317"
+                                          >
+                                            <div
+                                              className="flex items-start gap-3"
+-                                             data-cursor-element-id="cursor-el-318"
+                                            >
+                                              <div
+                                                className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to..."
+-                                               data-cursor-element-id="cursor-el-319"
+                                              >
+                                              <div
+                                                className="flex-1 min-w-0"
+-                                               data-cursor-element-id="cursor-el-320"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2 mb-1"
+-                                                 data-cursor-element-id="cursor-el-321"
+                                                >
+                                                  <span
+                                                    className="font-medium text-foreground text-sm"
+-                                                   data-cursor-element-id="cursor-el-322"
+                                                  >
++                                                   John Doe
+                                                  <Badge variant="outline" className="text-xs">
+                                                    <span
+                                                      data-slot="badge"
+                                                      className={"inline-flex items-center justify-center rounded-md ..."}
+-                                                     data-cursor-element-id="cursor-el-323"
+                                                    >
++                                                     Updated
+                                                <p
+                                                  className="text-xs text-muted-foreground mb-2"
+-                                                 data-cursor-element-id="cursor-el-324"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-1 text-xs text-muted-foreground"
+-                                                 data-cursor-element-id="cursor-el-325"
+                                                >
+                                                  <Calendar className="w-3 h-3">
+                                                    <svg
+                                                      ref={null}
+                                                      xmlns="http://www.w3.org/2000/svg"
+                                                      width={24}
+                                                      height={24}
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      strokeWidth={2}
+                                                      strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      className="lucide lucide-calendar w-3 h-3"
+-                                                     data-cursor-element-id="cursor-el-326"
+                                                    >
+                                                      <path
+                                                        d="M8 2v4"
+-                                                       data-cursor-element-id="cursor-el-327"
+                                                      >
+                                                      <path
+                                                        d="M16 2v4"
+-                                                       data-cursor-element-id="cursor-el-328"
+                                                      >
+                                                      <rect
+                                                        width="18"
+                                                        height="18"
+                                                        x="3"
+                                                        y="4"
+                                                        rx="2"
+-                                                       data-cursor-element-id="cursor-el-329"
+                                                      >
+                                                      <path
+                                                        d="M3 10h18"
+-                                                       data-cursor-element-id="cursor-el-330"
+                                                      >
+                                                  ...
+                                          <div
+                                            className="p-3 hover:bg-muted/50 rounded-lg transition-colors border borde..."
+-                                           data-cursor-element-id="cursor-el-331"
+                                          >
+                                            <div
+                                              className="flex items-start gap-3"
+-                                             data-cursor-element-id="cursor-el-332"
+                                            >
+                                              <div
+                                                className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to..."
+-                                               data-cursor-element-id="cursor-el-333"
+                                              >
+                                              <div
+                                                className="flex-1 min-w-0"
+-                                               data-cursor-element-id="cursor-el-334"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2 mb-1"
+-                                                 data-cursor-element-id="cursor-el-335"
+                                                >
+                                                  <span
+                                                    className="font-medium text-foreground text-sm"
+-                                                   data-cursor-element-id="cursor-el-336"
+                                                  >
++                                                   Jane Smith
+                                                  <Badge variant="outline" className="text-xs">
+                                                    <span
+                                                      data-slot="badge"
+                                                      className={"inline-flex items-center justify-center rounded-md ..."}
+-                                                     data-cursor-element-id="cursor-el-337"
+                                                    >
++                                                     Created
+                                                <p
+                                                  className="text-xs text-muted-foreground mb-2"
+-                                                 data-cursor-element-id="cursor-el-338"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-1 text-xs text-muted-foreground"
+-                                                 data-cursor-element-id="cursor-el-339"
+                                                >
+                                                  <Calendar className="w-3 h-3">
+                                                    <svg
+                                                      ref={null}
+                                                      xmlns="http://www.w3.org/2000/svg"
+                                                      width={24}
+                                                      height={24}
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      strokeWidth={2}
+                                                      strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      className="lucide lucide-calendar w-3 h-3"
+-                                                     data-cursor-element-id="cursor-el-340"
+                                                    >
+                                                      <path
+                                                        d="M8 2v4"
+-                                                       data-cursor-element-id="cursor-el-341"
+                                                      >
+                                                      <path
+                                                        d="M16 2v4"
+-                                                       data-cursor-element-id="cursor-el-342"
+                                                      >
+                                                      <rect
+                                                        width="18"
+                                                        height="18"
+                                                        x="3"
+                                                        y="4"
+                                                        rx="2"
+-                                                       data-cursor-element-id="cursor-el-343"
+                                                      >
+                                                      <path
+                                                        d="M3 10h18"
+-                                                       data-cursor-element-id="cursor-el-344"
+                                                      >
+                                                  ...
+                                          <div
+                                            className="p-3 hover:bg-muted/50 rounded-lg transition-colors border borde..."
+-                                           data-cursor-element-id="cursor-el-345"
+                                          >
+                                            <div
+                                              className="flex items-start gap-3"
+-                                             data-cursor-element-id="cursor-el-346"
+                                            >
+                                              <div
+                                                className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to..."
+-                                               data-cursor-element-id="cursor-el-347"
+                                              >
+                                              <div
+                                                className="flex-1 min-w-0"
+-                                               data-cursor-element-id="cursor-el-348"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2 mb-1"
+-                                                 data-cursor-element-id="cursor-el-349"
+                                                >
+                                                  <span
+                                                    className="font-medium text-foreground text-sm"
+-                                                   data-cursor-element-id="cursor-el-350"
+                                                  >
++                                                   Mike Johnson
+                                                  <Badge variant="outline" className="text-xs">
+                                                    <span
+                                                      data-slot="badge"
+                                                      className={"inline-flex items-center justify-center rounded-md ..."}
+-                                                     data-cursor-element-id="cursor-el-351"
+                                                    >
++                                                     Updated
+                                                <p
+                                                  className="text-xs text-muted-foreground mb-2"
+-                                                 data-cursor-element-id="cursor-el-352"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-1 text-xs text-muted-foreground"
+-                                                 data-cursor-element-id="cursor-el-353"
+                                                >
+                                                  <Calendar className="w-3 h-3">
+                                                    <svg
+                                                      ref={null}
+                                                      xmlns="http://www.w3.org/2000/svg"
+                                                      width={24}
+                                                      height={24}
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      strokeWidth={2}
+                                                      strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      className="lucide lucide-calendar w-3 h-3"
+-                                                     data-cursor-element-id="cursor-el-354"
+                                                    >
+                                                      <path
+                                                        d="M8 2v4"
+-                                                       data-cursor-element-id="cursor-el-355"
+                                                      >
+                                                      <path
+                                                        d="M16 2v4"
+-                                                       data-cursor-element-id="cursor-el-356"
+                                                      >
+                                                      <rect
+                                                        width="18"
+                                                        height="18"
+                                                        x="3"
+                                                        y="4"
+                                                        rx="2"
+-                                                       data-cursor-element-id="cursor-el-357"
+                                                      >
+                                                      <path
+                                                        d="M3 10h18"
+-                                                       data-cursor-element-id="cursor-el-358"
+                                                      >
+                                                  ...
+                                          <div
+                                            className="p-3 hover:bg-muted/50 rounded-lg transition-colors border borde..."
+-                                           data-cursor-element-id="cursor-el-359"
+                                          >
+                                            <div
+                                              className="flex items-start gap-3"
+-                                             data-cursor-element-id="cursor-el-360"
+                                            >
+                                              <div
+                                                className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to..."
+-                                               data-cursor-element-id="cursor-el-361"
+                                              >
+                                              <div
+                                                className="flex-1 min-w-0"
+-                                               data-cursor-element-id="cursor-el-362"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2 mb-1"
+-                                                 data-cursor-element-id="cursor-el-363"
+                                                >
+                                                  <span
+                                                    className="font-medium text-foreground text-sm"
+-                                                   data-cursor-element-id="cursor-el-364"
+                                                  >
++                                                   Emma Davis
+                                                  <Badge variant="outline" className="text-xs">
+                                                    <span
+                                                      data-slot="badge"
+                                                      className={"inline-flex items-center justify-center rounded-md ..."}
+-                                                     data-cursor-element-id="cursor-el-365"
+                                                    >
++                                                     Created
+                                                <p
+                                                  className="text-xs text-muted-foreground mb-2"
+-                                                 data-cursor-element-id="cursor-el-366"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-1 text-xs text-muted-foreground"
+-                                                 data-cursor-element-id="cursor-el-367"
+                                                >
+                                                  <Calendar className="w-3 h-3">
+                                                    <svg
+                                                      ref={null}
+                                                      xmlns="http://www.w3.org/2000/svg"
+                                                      width={24}
+                                                      height={24}
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      strokeWidth={2}
+                                                      strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      className="lucide lucide-calendar w-3 h-3"
+-                                                     data-cursor-element-id="cursor-el-368"
+                                                    >
+                                                      <path
+                                                        d="M8 2v4"
+-                                                       data-cursor-element-id="cursor-el-369"
+                                                      >
+                                                      <path
+                                                        d="M16 2v4"
+-                                                       data-cursor-element-id="cursor-el-370"
+                                                      >
+                                                      <rect
+                                                        width="18"
+                                                        height="18"
+                                                        x="3"
+                                                        y="4"
+                                                        rx="2"
+-                                                       data-cursor-element-id="cursor-el-371"
+                                                      >
+                                                      <path
+                                                        d="M3 10h18"
+-                                                       data-cursor-element-id="cursor-el-372"
+                                                      >
+                                                  ...
+                                          <div
+                                            className="p-3 hover:bg-muted/50 rounded-lg transition-colors border borde..."
+-                                           data-cursor-element-id="cursor-el-373"
+                                          >
+                                            <div
+                                              className="flex items-start gap-3"
+-                                             data-cursor-element-id="cursor-el-374"
+                                            >
+                                              <div
+                                                className="w-10 h-10 rounded-full bg-gradient-to-br from-purple-400 to..."
+-                                               data-cursor-element-id="cursor-el-375"
+                                              >
+                                              <div
+                                                className="flex-1 min-w-0"
+-                                               data-cursor-element-id="cursor-el-376"
+                                              >
+                                                <div
+                                                  className="flex items-center gap-2 mb-1"
+-                                                 data-cursor-element-id="cursor-el-377"
+                                                >
+                                                  <span
+                                                    className="font-medium text-foreground text-sm"
+-                                                   data-cursor-element-id="cursor-el-378"
+                                                  >
++                                                   Tom Brown
+                                                  <Badge variant="outline" className="text-xs">
+                                                    <span
+                                                      data-slot="badge"
+                                                      className={"inline-flex items-center justify-center rounded-md ..."}
+-                                                     data-cursor-element-id="cursor-el-379"
+                                                    >
++                                                     Updated
+                                                <p
+                                                  className="text-xs text-muted-foreground mb-2"
+-                                                 data-cursor-element-id="cursor-el-380"
+                                                >
+                                                <div
+                                                  className="flex items-center gap-1 text-xs text-muted-foreground"
+-                                                 data-cursor-element-id="cursor-el-381"
+                                                >
+                                                  <Calendar className="w-3 h-3">
+                                                    <svg
+                                                      ref={null}
+                                                      xmlns="http://www.w3.org/2000/svg"
+                                                      width={24}
+                                                      height={24}
+                                                      viewBox="0 0 24 24"
+                                                      fill="none"
+                                                      stroke="currentColor"
+                                                      strokeWidth={2}
+                                                      strokeLinecap="round"
+                                                      strokeLinejoin="round"
+                                                      className="lucide lucide-calendar w-3 h-3"
+-                                                     data-cursor-element-id="cursor-el-382"
+                                                    >
+                                                      <path
+                                                        d="M8 2v4"
+-                                                       data-cursor-element-id="cursor-el-383"
+                                                      >
+                                                      <path
+                                                        d="M16 2v4"
+-                                                       data-cursor-element-id="cursor-el-384"
+                                                      >
+                                                      <rect
+                                                        width="18"
+                                                        height="18"
+                                                        x="3"
+                                                        y="4"
+                                                        rx="2"
+-                                                       data-cursor-element-id="cursor-el-385"
+                                                      >
+                                                      <path
+                                                        d="M3 10h18"
+-                                                       data-cursor-element-id="cursor-el-386"
+                                                      >
+                                                  ...
+                            <ActivityCharts>
+                              <div
+                                className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8 w-full"
+-                               data-cursor-element-id="cursor-el-387"
+                              >
+                                <Card className="border-bor...">
+                                  <div
+                                    data-slot="card"
+                                    className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shad..."
+-                                   data-cursor-element-id="cursor-el-388"
+                                  >
+                                    <h3
+                                      className="text-lg font-semibold text-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-389"
+                                    >
++                                     User Efficiency Ranking
+                                    <p
+                                      className="text-xs text-muted-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-390"
+                                    >
++                                     Efficiency score based on total records and daily average
+                                    <div
+                                      id={undefined}
+                                      className="recharts-responsive-container"
+                                      style={{width:"100%",height:300,minWidth:0,minHeight:undefined,maxHeight:undefined}}
+                                      ref={{current:null}}
+-                                     data-cursor-element-id="cursor-el-391"
+                                    >
+                                      <div
+                                        style={{width:0,overflowX:"visible"}}
+-                                       data-cursor-element-id="cursor-el-392"
+                                      >
+                                    <div
+                                      className="mt-4 text-xs text-muted-foreground"
+-                                     data-cursor-element-id="cursor-el-393"
+                                    >
+                                      <span
+-                                       data-cursor-element-id="cursor-el-394"
+                                      >
++                                       Efficiency = (Total Records × Consistency) / 100
+                                <Card className="border-bor...">
+                                  <div
+                                    data-slot="card"
+                                    className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shad..."
+-                                   data-cursor-element-id="cursor-el-395"
+                                  >
+                                    <h3
+                                      className="text-lg font-semibold text-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-396"
+                                    >
++                                     Top Users - Data Type Breakdown
+                                    <p
+                                      className="text-xs text-muted-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-397"
+                                    >
++                                     What type of data each top user adds most
+                                    <div
+                                      id={undefined}
+                                      className="recharts-responsive-container"
+                                      style={{width:"100%",height:300,minWidth:0,minHeight:undefined,maxHeight:undefined}}
+                                      ref={{current:null}}
+-                                     data-cursor-element-id="cursor-el-398"
+                                    >
+                                      <div
+                                        style={{width:0,overflowX:"visible"}}
+-                                       data-cursor-element-id="cursor-el-399"
+                                      >
+                                <Card className="border-bor...">
+                                  <div
+                                    data-slot="card"
+                                    className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shad..."
+-                                   data-cursor-element-id="cursor-el-400"
+                                  >
+                                    <h3
+                                      className="text-lg font-semibold text-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-401"
+                                    >
++                                     User Productivity Score
+                                    <p
+                                      className="text-xs text-muted-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-402"
+                                    >
++                                     Combined score: Records + Consistency
+                                    <div
+                                      id={undefined}
+                                      className="recharts-responsive-container"
+                                      style={{width:"100%",height:300,minWidth:0,minHeight:undefined,maxHeight:undefined}}
+                                      ref={{current:null}}
+-                                     data-cursor-element-id="cursor-el-403"
+                                    >
+                                      <div
+                                        style={{width:0,overflowX:"visible"}}
+-                                       data-cursor-element-id="cursor-el-404"
+                                      >
+                                <Card className="border-bor...">
+                                  <div
+                                    data-slot="card"
+                                    className="bg-card text-card-foreground flex flex-col gap-6 rounded-xl border shad..."
+-                                   data-cursor-element-id="cursor-el-405"
+                                  >
+                                    <h3
+                                      className="text-lg font-semibold text-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-406"
+                                    >
++                                     Data Type Distribution
+                                    <p
+                                      className="text-xs text-muted-foreground mb-4"
+-                                     data-cursor-element-id="cursor-el-407"
+                                    >
++                                     Total data added by type across all users
+                                    <div
+                                      id={undefined}
+                                      className="recharts-responsive-container"
+                                      style={{width:"100%",height:300,minWidth:0,minHeight:undefined,maxHeight:undefined}}
+                                      ref={{current:null}}
+-                                     data-cursor-element-id="cursor-el-408"
+                                    >
+                                      <div
+                                        style={{width:0,overflowX:"visible"}}
+-                                       data-cursor-element-id="cursor-el-409"
+                                      >
+                                    <div
+                                      className="mt-4 grid grid-cols-2 gap-2 text-xs"
+-                                     data-cursor-element-id="cursor-el-410"
+                                    >
+                                      <div
+                                        className="flex items-center justify-between"
+-                                       data-cursor-element-id="cursor-el-411"
+                                      >
+                                        <span
+                                          className="text-muted-foreground"
+-                                         data-cursor-element-id="cursor-el-412"
+                                        >
+                                        <span
+                                          className="font-semibold"
+-                                         data-cursor-element-id="cursor-el-413"
+                                        >
+                                      <div
+                                        className="flex items-center justify-between"
+-                                       data-cursor-element-id="cursor-el-414"
+                                      >
+                                        <span
+                                          className="text-muted-foreground"
+-                                         data-cursor-element-id="cursor-el-415"
+                                        >
+                                        <span
+                                          className="font-semibold"
+-                                         data-cursor-element-id="cursor-el-416"
+                                        >
+                                      <div
+                                        className="flex items-center justify-between"
+-                                       data-cursor-element-id="cursor-el-417"
+                                      >
+                                        <span
+                                          className="text-muted-foreground"
+-                                         data-cursor-element-id="cursor-el-418"
+                                        >
+                                        <span
+                                          className="font-semibold"
+-                                         data-cursor-element-id="cursor-el-419"
+                                        >
+                                      <div
+                                        className="flex items-center justify-between"
+-                                       data-cursor-element-id="cursor-el-420"
+                                      >
+                                        <span
+                                          className="text-muted-foreground"
+-                                         data-cursor-element-id="cursor-el-421"
+                                        >
+                                        <span
+                                          className="font-semibold"
+-                                         data-cursor-element-id="cursor-el-422"
+                                        >
+              ...
+            ...
+
+[00:00:34.448] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:34.448] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:35.311] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:35.311] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:35.312] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765816694610}
+[00:00:37.207] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:37.207] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:37.207] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:37.207] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:37.207] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:37.207] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:38.251] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:38.251] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:38.251] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:38.251] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:38.251] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:38.251] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:48.922] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:48.922] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:48.922] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:00:48.922] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.696] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.697] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.697] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.697] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.965] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.965] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.965] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:01.965] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.088] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.214] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.214] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.614] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.614] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.614] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.614] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.614] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:04.615] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:05.237] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:25.367] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:44.535] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:01:47.461] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:00.202] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   params are being enumerated. `params` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:10.599] Browser ERROR   The keys of `searchParams` were accessed directly. `searchParams` is a Promise and must be unwrapped with `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
+[00:02:18.476] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:23.076] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:02:23.076] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:02:23.076] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765816801999}
+[00:25:21.820] Server  LOG      ✓ Compiled in 516ms
+[00:25:46.209] Server  LOG      ✓ Compiled in 595ms
+[00:25:48.078] Browser ERROR   uncaughtError: TypeError: Cannot read properties of undefined (reading 'companies')
+[00:25:52.158] Server  LOG      ✓ Compiled in 309ms
+[00:25:53.688] Server  ERROR   C:\Users\rocky\Desktop\WEB DEV BIG PROJECTS\CORECONNECT ADMIN DASHBOARD\coreconnect_admin\.next\dev\server\chunks\ssr\3d860_WEB DEV BIG PROJECTS_CORECONNECT ADMIN DASHBOARD_coreconnect_admin_8a447e31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:25:53.693] Server  ERROR    ⨯ ReferenceError: getTotalData is not defined
+[00:25:53.839] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:54.960] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:57.089] Browser ERROR   uncaughtError: ReferenceError: getTotalData is not defined
+[00:25:59.504] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:25:59.532] Server  LOG      ✓ Compiled in 199ms
+[00:26:00.432] Server  ERROR   C:\Users\rocky\Desktop\WEB DEV BIG PROJECTS\CORECONNECT ADMIN DASHBOARD\coreconnect_admin\.next\dev\server\chunks\ssr\3d860_WEB DEV BIG PROJECTS_CORECONNECT ADMIN DASHBOARD_coreconnect_admin_8a447e31._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:26:00.465] Server  ERROR    ⨯ ReferenceError: getTotalData is not defined
+[00:26:02.585] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:04.112] Browser ERROR   uncaughtError: ReferenceError: getTotalData is not defined
+[00:26:06.365] Server  LOG      ✓ Compiled in 457ms
+[00:26:06.400] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:09.206] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:26:13.078] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:13.079] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:26:13.079] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765818231974}
+[00:26:41.256] Server  LOG      ✓ Compiled in 447ms
+[00:29:51.120] Server  LOG      ✓ Compiled in 267ms
+[00:29:51.716] Server  LOG      ✓ Compiled in 312ms
+[00:29:53.584] Server  LOG      ✓ Compiled in 1044ms
+[00:57:19.602] Server  LOG      ✓ Compiled in 814ms
+[00:57:23.113] Browser WARN    ImmutableStateInvariantMiddleware took 94ms, which is more than the warning threshold of 32ms. 
 If your state or actions are very large, you may want to disable the middleware as it might cause too much of a slowdown in development mode. See https://redux-toolkit.js.org/api/getDefaultMiddleware for instructions.
 It is disabled in production builds, so you don't need to worry about that.
-[00:10:52.225] Browser WARN    ImmutableStateInvariantMiddleware took 62ms, which is more than the warning threshold of 32ms. 
-If your state or actions are very large, you may want to disable the middleware as it might cause too much of a slowdown in development mode. See https://redux-toolkit.js.org/api/getDefaultMiddleware for instructions.
-It is disabled in production builds, so you don't need to worry about that.
-[00:10:52.735] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:10:52.735] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:10:52.735] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764610267668}
-[00:13:05.624] Server  LOG      ✓ Compiled in 656ms
-[00:13:10.389] Server  LOG      ✓ Compiled in 220ms
-[00:13:14.257] Server  LOG      ✓ Compiled in 429ms
-[00:13:39.047] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:13:39.047] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:13:50.497] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:13:50.497] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:17:11.766] Server  LOG      ✓ Compiled in 690ms
-[00:17:13.150] Browser ERROR   uncaughtError: ReferenceError: UserCheck is not defined
-[00:17:13.150] Browser WARN    ImmutableStateInvariantMiddleware took 45ms, which is more than the warning threshold of 32ms. 
-If your state or actions are very large, you may want to disable the middleware as it might cause too much of a slowdown in development mode. See https://redux-toolkit.js.org/api/getDefaultMiddleware for instructions.
-It is disabled in production builds, so you don't need to worry about that.
-[00:17:51.402] Server  LOG      ✓ Compiled in 932ms
-[00:17:51.431] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
-[00:17:54.886] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764610687126}
-[00:17:59.681] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:04.733] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:18:04.733] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:18:04.734] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764610699537}
-[00:18:34.373] Server  LOG      ✓ Compiled in 442ms
-[00:19:10.826] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:10.826] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:14.900] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:14.900] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:16.913] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:16.913] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:20.371] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:20.372] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:25.947] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:25.947] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:28.436] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:19:28.436] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:21:16.476] Server  LOG      ✓ Compiled in 356ms
-[00:21:19.228] Server  LOG      ✓ Compiled in 467ms
-[00:22:05.938] Server  LOG      ✓ Compiled in 358ms
-[00:23:15.326] Server  LOG      ✓ Compiled in 722ms
-[00:23:24.982] Server  LOG      ✓ Compiled in 868ms
-[00:23:30.699] Server  LOG      ✓ Compiled in 187ms
-[00:23:43.953] Server  LOG      ✓ Compiled in 256ms
-[00:23:48.473] Server  LOG      ✓ Compiled in 265ms
-[00:23:52.259] Server  LOG      ✓ Compiled in 181ms
-[00:23:56.186] Server  LOG      ✓ Compiled in 428ms
-[00:23:59.006] Server  LOG      ✓ Compiled in 189ms
-[00:24:03.717] Server  LOG      ✓ Compiled in 709ms
-[00:24:08.497] Server  LOG      ✓ Compiled in 561ms
-[00:24:26.464] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:26.464] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:29.056] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:29.056] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:34.575] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:34.575] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:39.333] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:39.333] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:42.125] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
-[00:24:42.125] Browser WARN    Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}.
+[00:57:23.113] Browser ERROR   uncaughtError: ReferenceError: userEfficiencyData is not defined
+[00:57:57.244] Server  LOG      ✓ Compiled in 1629ms
+[00:57:57.550] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:58:05.952] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:08.178] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:58:08.178] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:58:08.178] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765820147458}
