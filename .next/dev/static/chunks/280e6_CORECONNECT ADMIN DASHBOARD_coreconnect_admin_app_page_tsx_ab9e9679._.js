@@ -8,7 +8,7 @@
   "static/chunks/6a561_recharts_es6_cartesian_bfb75389._.js",
   "static/chunks/6a561_recharts_es6_592aad83._.js",
   "static/chunks/6a561_@radix-ui_89b9e79e._.js",
-  "static/chunks/6a561_4aad3a8a._.js"
+  "static/chunks/6a561_91802489._.js"
 ],
     source: "dynamic"
 });

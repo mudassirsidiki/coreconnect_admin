@@ -2291,7 +2291,9 @@ __turbopack_context__.s([
     ()=>ActivityCharts
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/ui/card.tsx [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/ui/table.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$LineChart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/recharts/es6/chart/LineChart.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/recharts/es6/cartesian/Line.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$BarChart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/recharts/es6/chart/BarChart.js [app-client] (ecmascript)");
@@ -2305,7 +2307,14 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PR
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$PieChart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/recharts/es6/chart/PieChart.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$polar$2f$Pie$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/recharts/es6/polar/Pie.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Cell$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/recharts/es6/component/Cell.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpDown$3e$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/lucide-react/dist/esm/icons/arrow-up-down.js [app-client] (ecmascript) <export default as ArrowUpDown>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUp$3e$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/lucide-react/dist/esm/icons/arrow-up.js [app-client] (ecmascript) <export default as ArrowUp>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__ = __turbopack_context__.i("[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/node_modules/lucide-react/dist/esm/icons/arrow-down.js [app-client] (ecmascript) <export default as ArrowDown>");
+;
+var _s = __turbopack_context__.k.signature();
 'use client';
+;
+;
 ;
 ;
 ;
@@ -2435,49 +2444,117 @@ const regionalData = [
         total: 225
     }
 ];
-// Top PT Team Members by Total Additions
-const topPerformersData = [
+// PT Team Members Data - Aggregated from user data
+const ptTeamMembersData = [
     {
         name: 'Zainab Raza',
         companies: 18,
-        contacts: 65,
-        total: 83
+        contacts: 65
     },
     {
         name: 'Hira Abbas',
         companies: 16,
-        contacts: 60,
-        total: 76
+        contacts: 60
     },
     {
         name: 'Hassan Malik',
         companies: 15,
-        contacts: 58,
-        total: 73
+        contacts: 58
     },
     {
         name: 'Sana Mirza',
         companies: 13,
-        contacts: 48,
-        total: 61
-    },
-    {
-        name: 'Usman Iqbal',
-        companies: 11,
-        contacts: 42,
-        total: 53
+        contacts: 48
     },
     {
         name: 'Ahmed Ali',
         companies: 12,
-        contacts: 45,
-        total: 57
+        contacts: 45
+    },
+    {
+        name: 'Usman Iqbal',
+        companies: 11,
+        contacts: 42
     },
     {
         name: 'Bilal Ahmed',
         companies: 10,
-        contacts: 38,
-        total: 48
+        contacts: 38
+    },
+    {
+        name: 'Fatima Khan',
+        companies: 8,
+        contacts: 32
+    },
+    {
+        name: 'Omar Butt',
+        companies: 9,
+        contacts: 38
+    },
+    {
+        name: 'Tariq Hussain',
+        companies: 9,
+        contacts: 35
+    },
+    {
+        name: 'Ayesha Sheikh',
+        companies: 6,
+        contacts: 22
+    },
+    {
+        name: 'Mohammad Ali',
+        companies: 14,
+        contacts: 52
+    },
+    {
+        name: 'Ayesha Rahman',
+        companies: 12,
+        contacts: 48
+    },
+    {
+        name: 'Omar Sheikh',
+        companies: 11,
+        contacts: 44
+    },
+    {
+        name: 'Zainab Ali',
+        companies: 10,
+        contacts: 40
+    },
+    {
+        name: 'Usman Khan',
+        companies: 13,
+        contacts: 50
+    },
+    {
+        name: 'Hira Malik',
+        companies: 15,
+        contacts: 55
+    },
+    {
+        name: 'Tariq Ahmed',
+        companies: 9,
+        contacts: 36
+    },
+    {
+        name: 'Fatima Hussain',
+        companies: 11,
+        contacts: 42
+    },
+    {
+        name: 'Hassan Raza',
+        companies: 8,
+        contacts: 30
+    },
+    {
+        name: 'Ayesha Iqbal',
+        companies: 12,
+        contacts: 46
+    },
+    {
+        name: 'Mohammad Hassan',
+        companies: 16,
+        contacts: 58
     }
 ];
 const COLORS = [
@@ -2504,7 +2581,7 @@ function ActivityCharts() {
                         children: "Daily Activity Trend"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 59,
+                        lineNumber: 87,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2512,7 +2589,7 @@ function ActivityCharts() {
                         children: "Companies and Contacts added over the past 11 days"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 60,
+                        lineNumber: 88,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
@@ -2526,7 +2603,7 @@ function ActivityCharts() {
                                     stroke: "var(--color-border)"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 65,
+                                    lineNumber: 93,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
@@ -2537,14 +2614,14 @@ function ActivityCharts() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 66,
+                                    lineNumber: 94,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {
                                     stroke: "var(--color-muted-foreground)"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 71,
+                                    lineNumber: 99,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {
@@ -2554,12 +2631,12 @@ function ActivityCharts() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 72,
+                                    lineNumber: 100,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Legend"], {}, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 78,
+                                    lineNumber: 106,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Line"], {
@@ -2573,7 +2650,7 @@ function ActivityCharts() {
                                     name: "Companies Added"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 107,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Line$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Line"], {
@@ -2587,24 +2664,24 @@ function ActivityCharts() {
                                     name: "Contacts Added"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 87,
+                                    lineNumber: 115,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                            lineNumber: 64,
+                            lineNumber: 92,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 63,
+                        lineNumber: 91,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                lineNumber: 58,
+                lineNumber: 86,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -2615,7 +2692,7 @@ function ActivityCharts() {
                         children: "Industry Distribution"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 101,
+                        lineNumber: 129,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2623,7 +2700,7 @@ function ActivityCharts() {
                         children: "Breakdown of companies by industry sector"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 102,
+                        lineNumber: 130,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
@@ -2644,12 +2721,12 @@ function ActivityCharts() {
                                             fill: COLORS[index % COLORS.length]
                                         }, `cell-${index}`, false, {
                                             fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                            lineNumber: 118,
+                                            lineNumber: 146,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 107,
+                                    lineNumber: 135,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {
@@ -2659,24 +2736,24 @@ function ActivityCharts() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 121,
+                                    lineNumber: 149,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                            lineNumber: 106,
+                            lineNumber: 134,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 105,
+                        lineNumber: 133,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                lineNumber: 100,
+                lineNumber: 128,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
@@ -2687,7 +2764,7 @@ function ActivityCharts() {
                         children: "Regional Performance"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 133,
+                        lineNumber: 161,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2695,7 +2772,7 @@ function ActivityCharts() {
                         children: "Comparison of USA vs Canada performance"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 134,
+                        lineNumber: 162,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
@@ -2709,7 +2786,7 @@ function ActivityCharts() {
                                     stroke: "var(--color-border)"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 139,
+                                    lineNumber: 167,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
@@ -2717,14 +2794,14 @@ function ActivityCharts() {
                                     stroke: "var(--color-muted-foreground)"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 140,
+                                    lineNumber: 168,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {
                                     stroke: "var(--color-muted-foreground)"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 141,
+                                    lineNumber: 169,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {
@@ -2734,12 +2811,12 @@ function ActivityCharts() {
                                     }
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 142,
+                                    lineNumber: 170,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Legend"], {}, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 148,
+                                    lineNumber: 176,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
@@ -2754,7 +2831,7 @@ function ActivityCharts() {
                                     name: "Companies"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 149,
+                                    lineNumber: 177,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
@@ -2769,7 +2846,7 @@ function ActivityCharts() {
                                     name: "Contacts"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 150,
+                                    lineNumber: 178,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
@@ -2784,18 +2861,18 @@ function ActivityCharts() {
                                     name: "Total"
                                 }, void 0, false, {
                                     fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 151,
+                                    lineNumber: 179,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                            lineNumber: 138,
+                            lineNumber: 166,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 137,
+                        lineNumber: 165,
                         columnNumber: 9
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2811,7 +2888,7 @@ function ActivityCharts() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                        lineNumber: 157,
+                                        lineNumber: 185,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2826,171 +2903,260 @@ function ActivityCharts() {
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                        lineNumber: 158,
+                                        lineNumber: 186,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, item.region, true, {
                                 fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                lineNumber: 156,
+                                lineNumber: 184,
                                 columnNumber: 13
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 154,
+                        lineNumber: 182,
                         columnNumber: 9
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                lineNumber: 132,
+                lineNumber: 160,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
-                className: "border-border p-6 w-full",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                        className: "text-lg font-semibold text-foreground mb-4",
-                        children: "Top PT Team Members"
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 168,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                        className: "text-xs text-muted-foreground mb-4",
-                        children: "Highest performing team members by total additions"
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 169,
-                        columnNumber: 9
-                    }, this),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$ResponsiveContainer$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["ResponsiveContainer"], {
-                        width: "100%",
-                        height: 300,
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$chart$2f$BarChart$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BarChart"], {
-                            data: topPerformersData,
-                            layout: "vertical",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$CartesianGrid$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["CartesianGrid"], {
-                                    strokeDasharray: "3 3",
-                                    stroke: "var(--color-border)"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 174,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$XAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["XAxis"], {
-                                    type: "number",
-                                    stroke: "var(--color-muted-foreground)"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 175,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$YAxis$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["YAxis"], {
-                                    dataKey: "name",
-                                    type: "category",
-                                    stroke: "var(--color-muted-foreground)",
-                                    width: 100,
-                                    tick: {
-                                        fontSize: 11
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 176,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Tooltip$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Tooltip"], {
-                                    contentStyle: {
-                                        backgroundColor: 'var(--color-card)',
-                                        border: '1px solid var(--color-border)'
-                                    },
-                                    formatter: (value, name)=>{
-                                        if (name === 'total') return [
-                                            value,
-                                            'Total Additions'
-                                        ];
-                                        if (name === 'companies') return [
-                                            value,
-                                            'Companies'
-                                        ];
-                                        if (name === 'contacts') return [
-                                            value,
-                                            'Contacts'
-                                        ];
-                                        return [
-                                            value,
-                                            name
-                                        ];
-                                    }
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 183,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$component$2f$Legend$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Legend"], {}, void 0, false, {
-                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 195,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
-                                    dataKey: "companies",
-                                    fill: "#8b5cf6",
-                                    radius: [
-                                        0,
-                                        4,
-                                        4,
-                                        0
-                                    ],
-                                    name: "Companies"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 196,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$recharts$2f$es6$2f$cartesian$2f$Bar$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Bar"], {
-                                    dataKey: "contacts",
-                                    fill: "#3b82f6",
-                                    radius: [
-                                        0,
-                                        4,
-                                        4,
-                                        0
-                                    ],
-                                    name: "Contacts"
-                                }, void 0, false, {
-                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                                    lineNumber: 197,
-                                    columnNumber: 13
-                                }, this)
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                            lineNumber: 173,
-                            columnNumber: 11
-                        }, this)
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                        lineNumber: 172,
-                        columnNumber: 9
-                    }, this)
-                ]
-            }, void 0, true, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(PTTeamMembersTable, {}, void 0, false, {
                 fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-                lineNumber: 167,
+                lineNumber: 195,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
-        lineNumber: 56,
+        lineNumber: 84,
         columnNumber: 5
     }, this);
 }
 _c = ActivityCharts;
-var _c;
+function PTTeamMembersTable() {
+    _s();
+    const [sortField, setSortField] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [sortDirection, setSortDirection] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const handleSort = (field)=>{
+        if (sortField === field) {
+            // Toggle direction if same field
+            setSortDirection(sortDirection === 'asc' ? 'desc' : 'asc');
+        } else {
+            // New field, start with descending
+            setSortField(field);
+            setSortDirection('desc');
+        }
+    };
+    // Sort the data
+    const sortedData = [
+        ...ptTeamMembersData
+    ].sort((a, b)=>{
+        if (!sortField || !sortDirection) return 0;
+        const aValue = a[sortField];
+        const bValue = b[sortField];
+        if (sortDirection === 'asc') {
+            return aValue - bValue;
+        } else {
+            return bValue - aValue;
+        }
+    });
+    const getSortIcon = (field)=>{
+        if (sortField !== field) {
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUpDown$3e$__["ArrowUpDown"], {
+                className: "w-4 h-4 opacity-50"
+            }, void 0, false, {
+                fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                lineNumber: 231,
+                columnNumber: 14
+            }, this);
+        }
+        return sortDirection === 'asc' ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowUp$3e$__["ArrowUp"], {
+            className: "w-4 h-4"
+        }, void 0, false, {
+            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+            lineNumber: 234,
+            columnNumber: 7
+        }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$arrow$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ArrowDown$3e$__["ArrowDown"], {
+            className: "w-4 h-4"
+        }, void 0, false, {
+            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+            lineNumber: 236,
+            columnNumber: 7
+        }, this);
+    };
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$card$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Card"], {
+        className: "border-border p-6 w-full flex flex-col h-full",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "mb-4",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                        className: "text-lg font-semibold text-foreground mb-2",
+                        children: "PT Team Members"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                        lineNumber: 243,
+                        columnNumber: 9
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                        className: "text-xs text-muted-foreground",
+                        children: "All team members with their companies and contacts added"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                        lineNumber: 244,
+                        columnNumber: 9
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                lineNumber: 242,
+                columnNumber: 7
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "flex-1 overflow-y-auto overflow-x-hidden max-h-[400px]",
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Table"], {
+                    children: [
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableHeader"], {
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableRow"], {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableHead"], {
+                                        className: "text-foreground font-semibold",
+                                        children: "PT Team Member"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                        lineNumber: 252,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableHead"], {
+                                        className: "text-foreground font-semibold text-center",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            onClick: ()=>handleSort('companies'),
+                                            className: "flex items-center gap-2 hover:opacity-70 transition-opacity mx-auto",
+                                            children: [
+                                                "Companies Added",
+                                                getSortIcon('companies')
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                            lineNumber: 254,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                        lineNumber: 253,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableHead"], {
+                                        className: "text-foreground font-semibold text-center",
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            onClick: ()=>handleSort('contacts'),
+                                            className: "flex items-center gap-2 hover:opacity-70 transition-opacity mx-auto",
+                                            children: [
+                                                "Contacts Added",
+                                                getSortIcon('contacts')
+                                            ]
+                                        }, void 0, true, {
+                                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                            lineNumber: 263,
+                                            columnNumber: 17
+                                        }, this)
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                        lineNumber: 262,
+                                        columnNumber: 15
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableHead"], {
+                                        className: "text-foreground font-semibold text-center",
+                                        children: "Total"
+                                    }, void 0, false, {
+                                        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                        lineNumber: 271,
+                                        columnNumber: 15
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                lineNumber: 251,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                            lineNumber: 250,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableBody"], {
+                            children: sortedData.map((member, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableRow"], {
+                                    className: "hover:bg-muted/50",
+                                    children: [
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableCell"], {
+                                            className: "font-medium text-foreground",
+                                            children: member.name
+                                        }, void 0, false, {
+                                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                            lineNumber: 277,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableCell"], {
+                                            className: "text-center text-foreground",
+                                            children: member.companies
+                                        }, void 0, false, {
+                                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                            lineNumber: 278,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableCell"], {
+                                            className: "text-center text-foreground",
+                                            children: member.contacts
+                                        }, void 0, false, {
+                                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                            lineNumber: 279,
+                                            columnNumber: 17
+                                        }, this),
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$WEB__DEV__BIG__PROJECTS$2f$CORECONNECT__ADMIN__DASHBOARD$2f$coreconnect_admin$2f$components$2f$ui$2f$table$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["TableCell"], {
+                                            className: "text-center text-foreground font-semibold",
+                                            children: member.companies + member.contacts
+                                        }, void 0, false, {
+                                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                            lineNumber: 280,
+                                            columnNumber: 17
+                                        }, this)
+                                    ]
+                                }, index, true, {
+                                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                                    lineNumber: 276,
+                                    columnNumber: 15
+                                }, this))
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                            lineNumber: 274,
+                            columnNumber: 11
+                        }, this)
+                    ]
+                }, void 0, true, {
+                    fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                    lineNumber: 249,
+                    columnNumber: 9
+                }, this)
+            }, void 0, false, {
+                fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+                lineNumber: 248,
+                columnNumber: 7
+            }, this)
+        ]
+    }, void 0, true, {
+        fileName: "[project]/Desktop/WEB DEV BIG PROJECTS/CORECONNECT ADMIN DASHBOARD/coreconnect_admin/components/activity-charts.tsx",
+        lineNumber: 241,
+        columnNumber: 5
+    }, this);
+}
+_s(PTTeamMembersTable, "oz23kHC+y74KyBj0GNgS6eXtCmo=");
+_c1 = PTTeamMembersTable;
+var _c, _c1;
 __turbopack_context__.k.register(_c, "ActivityCharts");
+__turbopack_context__.k.register(_c1, "PTTeamMembersTable");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }
